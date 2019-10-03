@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkred;
+}
+header{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+#transparentLogo{
+    width: 400px;
+    height: 125px;
+}
+.firstNavBar{
+    width: 80%;
+    height: 45px;
+    margin: auto;
+}
+
+#hList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(144,144,144);
+    height: 45px;
+  }
+  
+#hList li {
+    float: left;
+    border-right:1px solid white;
+  }
+  
+#hList li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 98px;
+  }
+  
+#hList li a:hover {
+    background-color: #111;
+  }
+
+.about{
+    width:80%;
+    height:300px;
+    margin: auto;
+    background-color: rgb(135,169,132);
+  }
+#paperPlane{
+    height: 175px;
+    display: block;
+    margin: auto;
+}
+.left{
+    width: 390px;
+    height:230px;
+    float: left;
+    padding-top: 70px;
+}
+.right{
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 10 px;
+}
+.redLine{
+    width: 80%;
+    height:30px;
+    background-color: darkred;
+    margin: auto;
+}
+.content{
+    background-color: lightgray;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
+
+.secondNavBar{
+    width: 340px;
+    height: 580px;
+    float: left;
+    background-color: rgb(150,175,172);
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#vList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(150,175,172);
+  }
+  
+#vList li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom:1px solid white
+  }
+
+#vList  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  h1 {
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+  }
+
+  .right p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2{
+    color: rgb(112,114,115);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .howWeWork p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
